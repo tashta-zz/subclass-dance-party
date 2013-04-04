@@ -1,0 +1,75 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-color:#444;
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+
+span {
+  display: block;
+
+}
+
+.stage {
+  text-align: center;
+  color: white;
+  line-height: 800px;
+}
+
+.topbar span{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.title{
+  background-color: #777;
+}
+.redBlinkyDancer{
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+.donutBlinkyDancer{
+  border:20px solid blue;
+  width:40px;
+  height:40px;
+  border-radius:40px;
+  position:absolute;
+}
+.movingDancer {
+ /* width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  
+  border-left: 30px solid rgb(204, 164, 164);*/  
+  /*height:130px;
+  width: 100px;*/
+  z-index: 1;
+  height:260px;
+  width: 200px;
+  background: url('img/Marcus3.png');
+  background-size: contain;
+  position:absolute;
+}
+
+.speech{
+  width: 230px;
+}
+.changingDancer {
+  border:0px solid blue;
+  width:40px;
+  height:40px;
+  background-color: #444;
+  border-radius:20px;
+  position: absolute;
+
+}
